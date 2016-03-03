@@ -1,0 +1,6 @@
+%first read an image file
+%input data to binary stream
+im=imread('data/junjie_top.jpg');
+im_bin=dec2bin(im(:))';
+im_bin=im_bin(:);
+
